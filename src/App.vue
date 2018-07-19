@@ -98,7 +98,7 @@ export default {
         });
         this.$refs.myRef.finishPullToRefresh();
 
-        this.$vux.toast.text(`当前一共引入了${this.panelList.length}条信息`, 'top');
+        this.$vux.toast.text(`当前一共引入了${this.panelList.length}条信息`, 'top');     //ES6字符串拼接
       })
       
     },
